@@ -4,6 +4,6 @@ let date = new Date;
 let day = date.getDay();
 for (let i = 0; i < arr.length; i++) {
     if (i === day) {
-        console.log(arr[i]);
+        console.log(`hôm nay la thứ mấy chắc chắn là ${arr[i]}`);
     }
 }
